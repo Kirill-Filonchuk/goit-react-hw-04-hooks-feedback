@@ -11,10 +11,8 @@ function App() {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  console.dir(setGood);
-
   const handleDecrement = e => {
-    console.log('e.target.name', e.target.name);
+    // console.log('e.target.name', e.target.name);
     if (e.target.name === 'good') {
       setGood(good + 1);
       return;
