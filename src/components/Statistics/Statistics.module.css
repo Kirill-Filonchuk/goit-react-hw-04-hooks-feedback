@@ -1,0 +1,17 @@
+.section {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(41, 5, 75);
+}
+
+.positiv {
+  background-color: rgba(0, 12, 44, 0.781);
+  color: goldenrod;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.positivCount {
+  font-size: 28px;
+  font-weight: 600;
+}
